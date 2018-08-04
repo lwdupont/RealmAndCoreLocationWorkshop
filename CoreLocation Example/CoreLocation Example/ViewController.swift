@@ -7,8 +7,9 @@
 //
 
 import UIKit
+import CoreLocation
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, CLLocationManagerDelegate {
 
 	override func viewDidLoad() {
 		super.viewDidLoad()
@@ -19,7 +20,18 @@ class ViewController: UIViewController {
 		super.didReceiveMemoryWarning()
 		// Dispose of any resources that can be recreated.
 	}
-
+	
+	func startLocationManager() {
+		
+		
+		
+		
+	}
+	
+	
+	// MARK: - Location manager delegate methods
+	
+	
 
 }
 
